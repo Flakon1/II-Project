@@ -1,71 +1,74 @@
-using NUnit.Framework;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 
-//I will create a list for each beach where we will enter all the attributes of each beach and I will also make a 
-// method to read the data from the UI
+
 public class BeachManager : MonoBehaviour
 {
-    // propperties with data 
     public TMP_InputField nameInput;
     public TMP_InputField locationInput;
-    public TMP_InputField descriptionInput;
-    public TMP_InputField sandTypeInput;
+    public TMP_InputField typeInput;
+    public TMP_InputField parkingInput;
+    public TMP_InputField windInput;
+    public TMP_InputField weatherInput;
 
-    // yes/no properties, we will implement for every propertie a toggle switch in UI
+    public TMP_InputField cleanlinessInput;
+    public TMP_InputField safenessInput;
+    public TMP_InputField crowdednessInput;
 
-    public Toggle hasSandToggle;
-    public Toggle hasRocksToggle;
-
-    public Toggle HasSunbedsToggle;
-    public Toggle HasUmbrellasToggle;
-    public Toggle HasCabinsToggle;
-    public Toggle HasShowersToggle;
-    public Toggle HasToiletsToggle;
-    public Toggle HasParkingToggle;
-    public Toggle IsEasyAccessToggle;
-    public Toggle HasLifeguardToggle;
-    public Toggle IsSafeToggle;
-    public Toggle IsCleanToggle;
-
-
-    // the list with every beach and his properties
+    public Toggle sunbedsToggle;
+    public Toggle umbrellasToggle;
+    public Toggle showersToggle;
+    public Toggle toiletsToggle;
+    public Toggle algaeToggle;
+    public Toggle jellyfishToggle;
+    public Toggle seaShellsToggle;
+    public Toggle lifeguardsToggle;
 
     public List<BeachProperties> beaches = new List<BeachProperties>();
 
     public void BeachFromUI()
     {
-        BeachProperties beach = new BeachProperties();
+        int cleanliness = ParseInputToInt(cleanlinessInput.text);
+        int safeness = ParseInputToInt(safenessInput.text);
+        int crowdedness = ParseInputToInt(crowdednessInput.text);
 
-        beach.beachName = nameInput.text;
-        beach.beachLocation = locationInput.text;
-        beach.beachDescription = descriptionInput.text;
-
-        beach.HasCabins = HasCabinsToggle.isOn;
-        beach.HasSunbeds = HasSunbedsToggle.isOn;
-        beach.HasUmbrellas = HasUmbrellasToggle.isOn;
-        beach.HasShowers = HasShowersToggle.isOn;
-        beach.HasToilets = HasToiletsToggle.isOn;
-        beach.HasParking = HasParkingToggle.isOn;
-        beach.IsEasyAccess = IsEasyAccessToggle.isOn;
-        beach.HasLifeguard = HasLifeguardToggle.isOn;
-        beach.IsSafe = IsSafeToggle.isOn;
+        BeachProperties beach = new BeachProperties(
+            nameInput.text,
+            locationInput.text,
+            typeInput.text,
+            cleanliness,
+            safeness,
+            sunbedsToggle.isOn,
+            umbrellasToggle.isOn,
+            showersToggle.isOn,
+            toiletsToggle.isOn,
+            parkingInput.text,
+            algaeToggle.isOn,
+            jellyfishToggle.isOn,
+            seaShellsToggle.isOn,
+            windInput.text,
+            weatherInput.text,
+            crowdedness,
+            lifeguardsToggle.isOn
+        );
 
         beaches.Add(beach);
 
+        Debug.Log("Plaja adaugata: ");
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private int ParseInputToInt(string value)
     {
+        int result;
 
-    }
+        if (int.TryParse(value, out result))
+        {
+            result = Mathf.Clamp(result, 1, 5);
+            return result;
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-
+        return 1;
     }
 }
