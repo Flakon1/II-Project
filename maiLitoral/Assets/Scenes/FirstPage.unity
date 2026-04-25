@@ -757,10 +757,10 @@ RectTransform:
   - {fileID: 620519959}
   m_Father: {fileID: 468062833}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3477, y: 94.22}
-  m_SizeDelta: {x: 982.45, y: 1812.5}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.9235, y: -1.7428}
+  m_SizeDelta: {x: 1080, y: 1923}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &23570776
 MonoBehaviour:
@@ -4527,7 +4527,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 468062834}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ZoneNavigationManager, Assembly-CSharp
         m_MethodName: BackToZones
         m_Mode: 1
@@ -5132,40 +5132,28 @@ MonoBehaviour:
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 113491777}
+        m_TargetAssemblyTypeName: TESTSCRIPT, Assembly-CSharp
+        m_MethodName: StoppedSearching
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnSubmit:
     m_PersistentCalls:
       m_Calls: []
   m_OnSelect:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 113491777}
-        m_TargetAssemblyTypeName: TESTSCRIPT, Assembly-CSharp
-        m_MethodName: Searching
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_OnDeselect:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 113491777}
-        m_TargetAssemblyTypeName: TESTSCRIPT, Assembly-CSharp
-        m_MethodName: StoppedSearching
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_OnTextSelection:
     m_PersistentCalls:
       m_Calls: []
@@ -5174,7 +5162,19 @@ MonoBehaviour:
       m_Calls: []
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 113491777}
+        m_TargetAssemblyTypeName: TESTSCRIPT, Assembly-CSharp
+        m_MethodName: Searching
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnTouchScreenKeyboardStatusChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6162,10 +6162,10 @@ RectTransform:
   - {fileID: 46074913}
   m_Father: {fileID: 468062833}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 5842, y: 110.39}
-  m_SizeDelta: {x: 982.45, y: 1812.5}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.9235, y: -1.7428}
+  m_SizeDelta: {x: 1080, y: 1923}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &130799439
 MonoBehaviour:
@@ -8419,14 +8419,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 468062834}
+      - m_Target: {fileID: 1693128846}
         m_TargetAssemblyTypeName: ZoneNavigationManager, Assembly-CSharp
-        m_MethodName: OpenConstanta
-        m_Mode: 1
+        m_MethodName: OpenZonePanel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -8902,7 +8902,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 858339818}
   m_HandleRect: {fileID: 858339817}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0.99999994
   m_Size: 0.47478908
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -9585,7 +9585,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 468062834}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ZoneNavigationManager, Assembly-CSharp
         m_MethodName: BackToZones
         m_Mode: 1
@@ -12055,10 +12055,10 @@ RectTransform:
   - {fileID: 322697559}
   m_Father: {fileID: 468062833}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 9499, y: 86.62}
-  m_SizeDelta: {x: 984.2766, y: 1826.1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.9235, y: -1.7428}
+  m_SizeDelta: {x: 1080, y: 1923}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &242235170
 MonoBehaviour:
@@ -14756,14 +14756,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 468062834}
+      - m_Target: {fileID: 1693128846}
         m_TargetAssemblyTypeName: ZoneNavigationManager, Assembly-CSharp
-        m_MethodName: OpenMamaia
-        m_Mode: 1
+        m_MethodName: OpenZonePanel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -16019,7 +16019,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 468062834}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ZoneNavigationManager, Assembly-CSharp
         m_MethodName: BackToZones
         m_Mode: 1
@@ -20792,7 +20792,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 468062833}
-  - component: {fileID: 468062834}
   m_Layer: 5
   m_Name: ZoneBeaches
   m_TagString: Untagged
@@ -20823,33 +20822,11 @@ RectTransform:
   - {fileID: 242235169}
   m_Father: {fileID: 830201866}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1685, y: 105}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 186.47998}
+  m_SizeDelta: {x: 0, y: 372.96}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &468062834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 468062832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0bae67003264534eb2ae685b9b3a6c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ZoneNavigationManager
-  zoneList: {fileID: 1693128842}
-  beachesPanelNord: {fileID: 1482961667}
-  beachesPanelMamaiaNord: {fileID: 904895580}
-  beachesPanelMamaia: {fileID: 2005590670}
-  beachesPanelConstanta: {fileID: 23570774}
-  beachesPanelEforie: {fileID: 1152714576}
-  beachesPanelCostinesti: {fileID: 130799437}
-  beachesPanelSudLitoral: {fileID: 638555413}
-  beachesPanelMangalia: {fileID: 1750266097}
-  beachesPanelVamaVeche: {fileID: 242235168}
 --- !u!1 &468314841
 GameObject:
   m_ObjectHideFlags: 0
@@ -29998,10 +29975,10 @@ RectTransform:
   - {fileID: 1844154629}
   m_Father: {fileID: 468062833}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 7052, y: 112.04}
-  m_SizeDelta: {x: 982.45, y: 1815.8}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.9235, y: -1.7428}
+  m_SizeDelta: {x: 1080, y: 1923}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &638555415
 MonoBehaviour:
@@ -35899,7 +35876,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 468062834}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ZoneNavigationManager, Assembly-CSharp
         m_MethodName: BackToZones
         m_Mode: 1
@@ -41249,7 +41226,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 468062834}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ZoneNavigationManager, Assembly-CSharp
         m_MethodName: BackToZones
         m_Mode: 1
@@ -43039,10 +43016,10 @@ RectTransform:
   - {fileID: 2130614698}
   m_Father: {fileID: 468062833}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1155, y: 94.22}
-  m_SizeDelta: {x: 980.2769, y: 1812.5}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.01001, y: -0.00000046939}
+  m_SizeDelta: {x: 1080, y: 1923}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &904895582
 MonoBehaviour:
@@ -43446,14 +43423,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 468062834}
+      - m_Target: {fileID: 1693128846}
         m_TargetAssemblyTypeName: ZoneNavigationManager, Assembly-CSharp
-        m_MethodName: OpenCostinesti
-        m_Mode: 1
+        m_MethodName: OpenZonePanel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -45025,14 +45002,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 468062834}
+      - m_Target: {fileID: 1693128846}
         m_TargetAssemblyTypeName: ZoneNavigationManager, Assembly-CSharp
-        m_MethodName: OpenMamaiaNord
-        m_Mode: 1
+        m_MethodName: OpenZonePanel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -53755,14 +53732,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 468062834}
+      - m_Target: {fileID: 1693128846}
         m_TargetAssemblyTypeName: ZoneNavigationManager, Assembly-CSharp
-        m_MethodName: OpenVamaVeche
-        m_Mode: 1
+        m_MethodName: OpenZonePanel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 8
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -56693,10 +56670,10 @@ RectTransform:
   - {fileID: 134432738}
   m_Father: {fileID: 468062833}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 4647, y: 110.39}
-  m_SizeDelta: {x: 978.83, y: 1812.5}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.9235, y: -1.7428}
+  m_SizeDelta: {x: 1080, y: 1923}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1152714578
 MonoBehaviour:
@@ -76085,10 +76062,10 @@ RectTransform:
   - {fileID: 179202951}
   m_Father: {fileID: 468062833}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3.6418, y: 102.32}
-  m_SizeDelta: {x: 982.4934, y: 1828.6448}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.01001, y: 0.000061035}
+  m_SizeDelta: {x: 1080, y: 1923}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1482961669
 MonoBehaviour:
@@ -76331,14 +76308,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 468062834}
+      - m_Target: {fileID: 1693128846}
         m_TargetAssemblyTypeName: ZoneNavigationManager, Assembly-CSharp
-        m_MethodName: OpenEforie
-        m_Mode: 1
+        m_MethodName: OpenZonePanel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -77462,7 +77439,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 468062834}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ZoneNavigationManager, Assembly-CSharp
         m_MethodName: BackToZones
         m_Mode: 1
@@ -79946,7 +79923,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 468062834}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ZoneNavigationManager, Assembly-CSharp
         m_MethodName: BackToZones
         m_Mode: 1
@@ -85010,10 +84987,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 468062834}
+      - m_Target: {fileID: 1693128846}
         m_TargetAssemblyTypeName: ZoneNavigationManager, Assembly-CSharp
-        m_MethodName: OpenNord
-        m_Mode: 1
+        m_MethodName: OpenZonePanel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -87739,6 +87716,7 @@ GameObject:
   - component: {fileID: 1693128843}
   - component: {fileID: 1693128845}
   - component: {fileID: 1693128844}
+  - component: {fileID: 1693128846}
   m_Layer: 5
   m_Name: ZoneList
   m_TagString: Untagged
@@ -87804,6 +87782,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1693128842}
   m_CullTransparentMesh: 1
+--- !u!114 &1693128846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693128842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bae67003264534eb2ae685b9b3a6c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ZoneNavigationManager
+  zoneList: {fileID: 1693128842}
+  beachesParent: {fileID: 468062832}
+  beachesPanels:
+  - {fileID: 1482961667}
+  - {fileID: 904895580}
+  - {fileID: 2005590670}
+  - {fileID: 23570774}
+  - {fileID: 1152714576}
+  - {fileID: 130799437}
+  - {fileID: 638555413}
+  - {fileID: 1750266097}
+  - {fileID: 242235168}
 --- !u!1 &1694593746
 GameObject:
   m_ObjectHideFlags: 0
@@ -90031,10 +90033,10 @@ RectTransform:
   - {fileID: 1921767637}
   m_Father: {fileID: 468062833}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 8262, y: 87.02}
-  m_SizeDelta: {x: 982.45, y: 1826.9}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.9235, y: -1.7428}
+  m_SizeDelta: {x: 1080, y: 1923}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1750266099
 MonoBehaviour:
@@ -95876,14 +95878,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 468062834}
+      - m_Target: {fileID: 1693128846}
         m_TargetAssemblyTypeName: ZoneNavigationManager, Assembly-CSharp
-        m_MethodName: OpenMangalia
-        m_Mode: 1
+        m_MethodName: OpenZonePanel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 7
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -101399,7 +101401,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 468062834}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ZoneNavigationManager, Assembly-CSharp
         m_MethodName: BackToZones
         m_Mode: 1
@@ -102785,10 +102787,10 @@ RectTransform:
   - {fileID: 1872945835}
   m_Father: {fileID: 468062833}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2319, y: 94.22}
-  m_SizeDelta: {x: 978.83, y: 1812.5}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.0049896, y: 0.0099487}
+  m_SizeDelta: {x: 1080, y: 1923}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2005590672
 MonoBehaviour:
@@ -107221,14 +107223,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 468062834}
+      - m_Target: {fileID: 1693128846}
         m_TargetAssemblyTypeName: ZoneNavigationManager, Assembly-CSharp
-        m_MethodName: OpenSudLitoral
-        m_Mode: 1
+        m_MethodName: OpenZonePanel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -108326,7 +108328,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 468062834}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ZoneNavigationManager, Assembly-CSharp
         m_MethodName: BackToZones
         m_Mode: 1
