@@ -62,13 +62,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ButtonsUI\ButtonsUI.cs" />
+    <Compile Include="Assets\Tests\Settings\AppearanceSelectionManagerTest.cs" />
     <Compile Include="Assets\Tests\Search\MainContentSearchHandlerTest.cs" />
     <Compile Include="Assets\Scripts\Beach\BeachPropertiesNavigationManager.cs" />
+    <Compile Include="Assets\Tests\Settings\BeachRecommendationSelectionManagerTest.cs" />
     <Compile Include="Assets\Tests\Beach\BeachPropertiesNavigationManagerTest.cs" />
     <Compile Include="Assets\Scripts\SelectableCardUI.cs" />
     <Compile Include="Assets\Scripts\Beach\BeachProperties.cs" />
     <Compile Include="Assets\Scripts\SettingsNavigationManager.cs" />
     <Compile Include="Assets\Tests\Search\SearchBarScriptTest.cs" />
+    <Compile Include="Assets\Tests\Settings\NotificationsSelectionManagerTest.cs" />
     <Compile Include="Assets\Scripts\BeachCalendarManager.cs" />
     <Compile Include="Assets\Scripts\ZoneNavigation\ZoneNavigationManager.cs" />
     <Compile Include="Assets\Scripts\Search\SearchAutoCompleteController.cs" />
@@ -79,6 +82,7 @@
     <Compile Include="Assets\Scripts\Settings\NotificationsSelectionManager.cs" />
     <Compile Include="Assets\Scripts\Search\BeachSearchData.cs" />
     <Compile Include="Assets\Scripts\Settings\BeachRecommendationSelectionManager.cs" />
+    <Compile Include="Assets\Tests\Settings\LanguageSelectionManagerTest.cs" />
     <Compile Include="Assets\Scripts\Search\MainContentSearchHandler.cs" />
     <Compile Include="Assets\Tests\Search\SearchAutoCompleteControllerTest.cs" />
     <Compile Include="Assets\Scripts\DayUI.cs" />
