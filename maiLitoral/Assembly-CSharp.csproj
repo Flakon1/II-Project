@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\ButtonsUI\ButtonsUI.cs" />
     <Compile Include="Assets\Tests\Search\MainContentSearchHandlerTest.cs" />
     <Compile Include="Assets\Scripts\Beach\BeachPropertiesNavigationManager.cs" />
+    <Compile Include="Assets\Tests\Beach\BeachPropertiesNavigationManagerTest.cs" />
     <Compile Include="Assets\Scripts\SelectableCardUI.cs" />
     <Compile Include="Assets\Scripts\Beach\BeachProperties.cs" />
     <Compile Include="Assets\Scripts\SettingsNavigationManager.cs" />
