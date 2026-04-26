@@ -1,12 +1,88 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Proiect_Informatica_Industriala\\II-Project\\maiLitoral\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\II Project\\II-Project\\maiLitoral\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\II Project\\II-Project\\maiLitoral\\Assets\\Tests\\Settings\\NotificationsSelectionManagerTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Tests\\Settings\\NotificationsSelectionManagerTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\II Project\\II-Project\\maiLitoral\\Assets\\Tests\\Settings\\LanguageSelectionManagerTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Tests\\Settings\\LanguageSelectionManagerTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\II Project\\II-Project\\maiLitoral\\Assets\\Tests\\Settings\\BeachRecommendationSelectionManagerTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Tests\\Settings\\BeachRecommendationSelectionManagerTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\II Project\\II-Project\\maiLitoral\\Assets\\Tests\\Settings\\AppearanceSelectionManagerTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Tests\\Settings\\AppearanceSelectionManagerTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "VerticalTabListWidth": 264,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotificationsSelectionManagerTest.cs",
+              "DocumentMoniker": "D:\\II Project\\II-Project\\maiLitoral\\Assets\\Tests\\Settings\\NotificationsSelectionManagerTest.cs",
+              "RelativeDocumentMoniker": "Assets\\Tests\\Settings\\NotificationsSelectionManagerTest.cs",
+              "ToolTip": "D:\\II Project\\II-Project\\maiLitoral\\Assets\\Tests\\Settings\\NotificationsSelectionManagerTest.cs",
+              "RelativeToolTip": "Assets\\Tests\\Settings\\NotificationsSelectionManagerTest.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:17:05.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LanguageSelectionManagerTest.cs",
+              "DocumentMoniker": "D:\\II Project\\II-Project\\maiLitoral\\Assets\\Tests\\Settings\\LanguageSelectionManagerTest.cs",
+              "RelativeDocumentMoniker": "Assets\\Tests\\Settings\\LanguageSelectionManagerTest.cs",
+              "ToolTip": "D:\\II Project\\II-Project\\maiLitoral\\Assets\\Tests\\Settings\\LanguageSelectionManagerTest.cs",
+              "RelativeToolTip": "Assets\\Tests\\Settings\\LanguageSelectionManagerTest.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:17:03.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BeachRecommendationSelectionManagerTest.cs",
+              "DocumentMoniker": "D:\\II Project\\II-Project\\maiLitoral\\Assets\\Tests\\Settings\\BeachRecommendationSelectionManagerTest.cs",
+              "RelativeDocumentMoniker": "Assets\\Tests\\Settings\\BeachRecommendationSelectionManagerTest.cs",
+              "ToolTip": "D:\\II Project\\II-Project\\maiLitoral\\Assets\\Tests\\Settings\\BeachRecommendationSelectionManagerTest.cs",
+              "RelativeToolTip": "Assets\\Tests\\Settings\\BeachRecommendationSelectionManagerTest.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:17:01.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppearanceSelectionManagerTest.cs",
+              "DocumentMoniker": "D:\\II Project\\II-Project\\maiLitoral\\Assets\\Tests\\Settings\\AppearanceSelectionManagerTest.cs",
+              "RelativeDocumentMoniker": "Assets\\Tests\\Settings\\AppearanceSelectionManagerTest.cs",
+              "ToolTip": "D:\\II Project\\II-Project\\maiLitoral\\Assets\\Tests\\Settings\\AppearanceSelectionManagerTest.cs",
+              "RelativeToolTip": "Assets\\Tests\\Settings\\AppearanceSelectionManagerTest.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:16:59.233Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
