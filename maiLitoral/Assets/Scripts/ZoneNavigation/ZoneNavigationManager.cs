@@ -2,154 +2,55 @@ using UnityEngine;
 
 public class ZoneNavigationManager : MonoBehaviour {
     [SerializeField] private GameObject zoneList;
+    [SerializeField] private GameObject zoneBeaches;
+    [SerializeField] private GameObject beachesParent;
+    [SerializeField] private GameObject beachCalendar;
+    [SerializeField] private GameObject[] beachesPanels;
+    [SerializeField] private GameObject outsideClickOverlay;
 
-    [SerializeField] private GameObject beachesPanelNord;
-    [SerializeField] private GameObject beachesPanelMamaiaNord;
-    [SerializeField] private GameObject beachesPanelMamaia;
-    [SerializeField] private GameObject beachesPanelConstanta;
-    [SerializeField] private GameObject beachesPanelEforie;
-    [SerializeField] private GameObject beachesPanelCostinesti;
-    [SerializeField] private GameObject beachesPanelSudLitoral;
-    [SerializeField] private GameObject beachesPanelMangalia;
-    [SerializeField] private GameObject beachesPanelVamaVeche;
-
-    // Open Nord panel
-    public void OpenNordPanel() {
-        beachesPanelNord.SetActive(true);
-        beachesPanelMamaiaNord.SetActive(false);
-        beachesPanelMamaia.SetActive(false);
-        beachesPanelConstanta.SetActive(false);
-        beachesPanelEforie.SetActive(false);
-        beachesPanelCostinesti.SetActive(false);
-        beachesPanelSudLitoral.SetActive(false);
-        beachesPanelMangalia.SetActive(false);
-        beachesPanelVamaVeche.SetActive(false);
-        zoneList.SetActive(false);
-    }
-
-    // Open Mamaia Nord panel
-    public void OpenMamaiaNordPanel() {
-        beachesPanelNord.SetActive(false);
-        beachesPanelMamaiaNord.SetActive(true);
-        beachesPanelMamaia.SetActive(false);
-        beachesPanelConstanta.SetActive(false);
-        beachesPanelEforie.SetActive(false);
-        beachesPanelCostinesti.SetActive(false);
-        beachesPanelSudLitoral.SetActive(false);
-        beachesPanelMangalia.SetActive(false);
-        beachesPanelVamaVeche.SetActive(false);
-        zoneList.SetActive(false);
-    }
-
-    // Open Mamaia panel
-    public void OpenMamaiaPanel() {
-        beachesPanelNord.SetActive(false);
-        beachesPanelMamaiaNord.SetActive(false);
-        beachesPanelMamaia.SetActive(true);
-        beachesPanelConstanta.SetActive(false);
-        beachesPanelEforie.SetActive(false);
-        beachesPanelCostinesti.SetActive(false);
-        beachesPanelSudLitoral.SetActive(false);
-        beachesPanelMangalia.SetActive(false);
-        beachesPanelVamaVeche.SetActive(false);
-        zoneList.SetActive(false);
-    }
-
-    // Open Constanta panel
-    public void OpenConstantaPanel() {
-        beachesPanelNord.SetActive(false);
-        beachesPanelMamaiaNord.SetActive(false);
-        beachesPanelMamaia.SetActive(false);
-        beachesPanelConstanta.SetActive(true);
-        beachesPanelEforie.SetActive(false);
-        beachesPanelCostinesti.SetActive(false);
-        beachesPanelSudLitoral.SetActive(false);
-        beachesPanelMangalia.SetActive(false);
-        beachesPanelVamaVeche.SetActive(false);
-        zoneList.SetActive(false);
-    }
-
-    // Open Eforie panel
-    public void OpenEforiePanel() {
-        beachesPanelNord.SetActive(false);
-        beachesPanelMamaiaNord.SetActive(false);
-        beachesPanelMamaia.SetActive(false);
-        beachesPanelConstanta.SetActive(false);
-        beachesPanelEforie.SetActive(true);
-        beachesPanelCostinesti.SetActive(false);
-        beachesPanelSudLitoral.SetActive(false);
-        beachesPanelMangalia.SetActive(false);
-        beachesPanelVamaVeche.SetActive(false);
-        zoneList.SetActive(false);
-    }
-
-    // Open Costinesti panel
-    public void OpenCostinestiPanel() {
-        beachesPanelNord.SetActive(false);
-        beachesPanelMamaiaNord.SetActive(false);
-        beachesPanelMamaia.SetActive(false);
-        beachesPanelConstanta.SetActive(false);
-        beachesPanelEforie.SetActive(false);
-        beachesPanelCostinesti.SetActive(true);
-        beachesPanelSudLitoral.SetActive(false);
-        beachesPanelMangalia.SetActive(false);
-        beachesPanelVamaVeche.SetActive(false);
-        zoneList.SetActive(false);
-    }
-
-    // Open Sud Litoral panel
-    public void OpenSudLitoralPanel() {
-        beachesPanelNord.SetActive(false);
-        beachesPanelMamaiaNord.SetActive(false);
-        beachesPanelMamaia.SetActive(false);
-        beachesPanelConstanta.SetActive(false);
-        beachesPanelEforie.SetActive(false);
-        beachesPanelCostinesti.SetActive(false);
-        beachesPanelSudLitoral.SetActive(true);
-        beachesPanelMangalia.SetActive(false);
-        beachesPanelVamaVeche.SetActive(false);
-        zoneList.SetActive(false);
-    }
-
-    // Open Mangalia panel
-    public void OpenMangaliaPanel() {
-        beachesPanelNord.SetActive(false);
-        beachesPanelMamaiaNord.SetActive(false);
-        beachesPanelMamaia.SetActive(false);
-        beachesPanelConstanta.SetActive(false);
-        beachesPanelEforie.SetActive(false);
-        beachesPanelCostinesti.SetActive(false);
-        beachesPanelSudLitoral.SetActive(false);
-        beachesPanelMangalia.SetActive(true);
-        beachesPanelVamaVeche.SetActive(false);
-        zoneList.SetActive(false);
-    }
-
-    // Open Vama Veche panel
-    public void OpenVamaVechePanel() {
-        beachesPanelNord.SetActive(false);
-        beachesPanelMamaiaNord.SetActive(false);
-        beachesPanelMamaia.SetActive(false);
-        beachesPanelConstanta.SetActive(false);
-        beachesPanelEforie.SetActive(false);
-        beachesPanelCostinesti.SetActive(false);
-        beachesPanelSudLitoral.SetActive(false);
-        beachesPanelMangalia.SetActive(false);
-        beachesPanelVamaVeche.SetActive(true);
+    // Open selected zone panel
+    public void OpenZonePanel(int index) {
+        // Debug.Log("OPEN ZONE PANEL CALLED, index = " + index); 
+        zoneBeaches.SetActive(true);
+        outsideClickOverlay.SetActive(false);
+        for (int i = 0; i < beachesPanels.Length; i++) {
+            beachesPanels[i].SetActive(i == index);
+        }
         zoneList.SetActive(false);
     }
 
     // Go back to zone list
     public void BackToZoneList() {
-        beachesPanelNord.SetActive(false);
-        beachesPanelMamaiaNord.SetActive(false);
-        beachesPanelMamaia.SetActive(false);
-        beachesPanelConstanta.SetActive(false);
-        beachesPanelEforie.SetActive(false);
-        beachesPanelCostinesti.SetActive(false);
-        beachesPanelSudLitoral.SetActive(false);
-        beachesPanelMangalia.SetActive(false);
-        beachesPanelVamaVeche.SetActive(false);
+        beachesParent.SetActive(false);
         zoneList.SetActive(true);
+        for (int i = 0; i < beachesPanels.Length; i++) {
+            beachesPanels[i].SetActive(false);
+        }
+    }
+
+    // Go back to first page
+    public void BackToFirstPage() {
+        zoneBeaches.SetActive(false);
+        beachesParent.SetActive(false);
+        zoneList.SetActive(false);
+        beachCalendar.SetActive(true);
+        for (int i = 0; i < beachesPanels.Length; i++) {
+            beachesPanels[i].SetActive(false);
+        }
+    }
+
+    public void ShowZoneList() {
+        zoneList.SetActive(true);
+        outsideClickOverlay.SetActive(true);
+    }
+
+    public void CloseZoneList() {
+        zoneList.SetActive(false);
+        zoneBeaches.SetActive(false);
+        outsideClickOverlay.SetActive(false);
+        beachCalendar.SetActive(true);
+        for (int i = 0; i < beachesPanels.Length; i++) {
+            beachesPanels[i].SetActive(false);
+        }
     }
 }

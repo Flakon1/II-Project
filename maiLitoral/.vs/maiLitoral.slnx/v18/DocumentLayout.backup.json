@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\daria\\Desktop\\PROIECT II\\maiLitoral\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\daria\\desktop\\proiect ii\\mailitoral\\assets\\scripts\\settings\\languageselectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\settings\\languageselectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\daria\\desktop\\proiect ii\\mailitoral\\assets\\scripts\\search\\testscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\search\\testscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\daria\\Desktop\\PROIECT II\\maiLitoral\\Assets\\Scripts\\Settings\\AppearanceSelectionManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Settings\\AppearanceSelectionManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\daria\\desktop\\proiect ii\\mailitoral\\assets\\scripts\\zonenavigation\\zonenavigationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zonenavigation\\zonenavigationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LanguageSelectionManager.cs",
-              "DocumentMoniker": "C:\\Users\\daria\\Desktop\\PROIECT II\\maiLitoral\\Assets\\Scripts\\Settings\\LanguageSelectionManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Settings\\LanguageSelectionManager.cs",
-              "ToolTip": "C:\\Users\\daria\\Desktop\\PROIECT II\\maiLitoral\\Assets\\Scripts\\Settings\\LanguageSelectionManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Settings\\LanguageSelectionManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "TESTSCRIPT.cs",
+              "DocumentMoniker": "C:\\Users\\daria\\Desktop\\PROIECT II\\maiLitoral\\Assets\\Scripts\\Search\\TESTSCRIPT.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Search\\TESTSCRIPT.cs",
+              "ToolTip": "C:\\Users\\daria\\Desktop\\PROIECT II\\maiLitoral\\Assets\\Scripts\\Search\\TESTSCRIPT.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Search\\TESTSCRIPT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T13:52:53.073Z",
+              "WhenOpened": "2026-04-25T11:58:13.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AppearanceSelectionManager.cs",
-              "DocumentMoniker": "C:\\Users\\daria\\Desktop\\PROIECT II\\maiLitoral\\Assets\\Scripts\\Settings\\AppearanceSelectionManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Settings\\AppearanceSelectionManager.cs",
-              "ToolTip": "C:\\Users\\daria\\Desktop\\PROIECT II\\maiLitoral\\Assets\\Scripts\\Settings\\AppearanceSelectionManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Settings\\AppearanceSelectionManager.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCYAAAAAAAAAAAAAAA==",
+              "Title": "ZoneNavigationManager.cs",
+              "DocumentMoniker": "C:\\Users\\daria\\Desktop\\PROIECT II\\maiLitoral\\Assets\\Scripts\\ZoneNavigation\\ZoneNavigationManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ZoneNavigation\\ZoneNavigationManager.cs",
+              "ToolTip": "C:\\Users\\daria\\Desktop\\PROIECT II\\maiLitoral\\Assets\\Scripts\\ZoneNavigation\\ZoneNavigationManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ZoneNavigation\\ZoneNavigationManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T13:52:49.966Z",
+              "WhenOpened": "2026-04-25T15:23:41.031Z",
               "EditorCaption": ""
             }
           ]
