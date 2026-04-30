@@ -2,28 +2,28 @@ using System;
 
 public class BeachProperties
 {
-    
+
     private string name;
     private string location;
-    private string type; 
-    private int cleanliness; 
-    private int safeness; 
+    private string type;
+    private int cleanliness;
+    private int safeness;
 
     private bool sunbeds;
     private bool umbrellas;
     private bool showers;
     private bool toilets;
 
-    private string parking; 
+    private string parking;
 
     private bool algae;
     private bool jellyfish;
     private bool seaShells;
 
-    private string wind; 
-    private string weather; 
+    private string wind;
+    private string weather;
 
-    private int crowdedness; 
+    private int crowdedness;
     private bool lifeguards;
 
     public BeachProperties(
