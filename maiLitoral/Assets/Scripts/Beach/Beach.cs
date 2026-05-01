@@ -6,29 +6,36 @@ public class Beach : MonoBehaviour {
     /* Attributes */
 
     private List<(string description, bool status)> beachProperties = new List<(string description, bool status)>(); // Attribute for beaches parameters list
+    private List<bool> propertiesModified = new List<bool>(); // Attribute for checking if a property was never modified
     private float rank; // Attribute for beach rank
 
     /* Custom methods */
 
     public void AddProperty(string description, bool status) { // Adding a beach property *needs database implementation*
         beachProperties.Add((description, status));
+        propertiesModified.Add(true); // Needs to be false after database implementation
         // Adds in database a property for the beach
     }
     public void ModifyProperty(string newDescription, bool newStatus, int index) { // Modifying a beach property *needs database implementation*
         beachProperties[index] = (newDescription, newStatus);
+        propertiesModified[index] = true;
         // Modify in database a property for the beach
     }
-    public void CopyBeachProperty(List<(string description, bool status)> source) { // Copying a set of properties from another beach *needs database implementation*
+    public void CopyBeachProperties(List<(string description, bool status)> source, List<bool> sourceModified) { // Copying a set of properties from another beach *needs database implementation*
         beachProperties.Clear();
         beachProperties.AddRange(source);
+        propertiesModified.Clear();
+        propertiesModified.AddRange(sourceModified);
         // Copy in database a set of properties from another beach
     }
     public void DeleteProperty(int index) { // Deleting a beach property *needs database implementation*
         beachProperties.RemoveAt(index);
+        propertiesModified.RemoveAt(index);
         // Delete in database a property for the beach
     }
     public void DeleteAllProperties() { // Deleting all beach properties *needs database implementation*
         beachProperties.Clear();
+        propertiesModified.Clear();
         // Delete in database all properties for the beach
     }
 
@@ -43,6 +50,9 @@ public class Beach : MonoBehaviour {
 
     public List<(string description, bool status)> GetBeachProperties() { // Getter for beach properties
         return beachProperties;
+    }
+    public List<bool> GetPropertiesModified() { // Getter for properties modified
+        return propertiesModified;
     }
     public float GetRank() { // Getter for beach rank
         return rank;

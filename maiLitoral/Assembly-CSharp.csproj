@@ -73,6 +73,7 @@
     <Compile Include="Assets\Tests\Settings\LanguageSelectionManagerTest.cs" />
     <Compile Include="Assets\Tests\Search\SearchAutoCompleteControllerTest.cs" />
     <Compile Include="Assets\Scripts\Settings\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\CalendarManager.cs" />
     <Compile Include="Assets\Scripts\Settings\AppearanceSelectionManager.cs" />
   </ItemGroup>
   <ItemGroup>

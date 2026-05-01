@@ -61,6 +61,7 @@ Assets/Scripts/
  Managers/
   BeachManager.cs
   ButtonsManager.cs
+  CalendarManager.cs
   SearchManager.cs
   ZonesManager.cs
  SelectableCardUI.cs

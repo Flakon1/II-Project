@@ -2246,7 +2246,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -5129,7 +5129,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -5696,7 +5696,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -6195,7 +6195,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -9635,7 +9635,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -13380,7 +13380,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -14389,7 +14389,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -14854,7 +14854,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -16499,7 +16499,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -18567,7 +18567,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -19195,7 +19195,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -20167,7 +20167,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -23984,7 +23984,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -23996,7 +23996,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -26094,7 +26094,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -26384,7 +26384,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -30617,7 +30617,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -32941,7 +32941,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -33249,7 +33249,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -35846,7 +35846,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -41810,7 +41810,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -44132,7 +44132,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -47106,7 +47106,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -50980,7 +50980,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -58093,7 +58093,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -61044,7 +61044,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -64174,7 +64174,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -65376,7 +65376,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -67272,7 +67272,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -72053,7 +72053,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -72869,7 +72869,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -76413,7 +76413,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -76767,7 +76767,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -77868,7 +77868,6 @@ GameObject:
   - component: {fileID: 1951562599}
   - component: {fileID: 1951562598}
   - component: {fileID: 1951562597}
-  - component: {fileID: 1951562596}
   m_Layer: 5
   m_Name: BeachesProperties
   m_TagString: Untagged
@@ -77932,58 +77931,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1951562596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1951562594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f28c764673aefa4d9de5c53160e0b75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BeachPropertiesNavigationManager
-  zoneBeaches: {fileID: 0}
-  beachProperties: {fileID: 1951562594}
-  propertyPanels:
-  - {fileID: 1733025351}
-  - {fileID: 1749068823}
-  - {fileID: 1332947396}
-  - {fileID: 1092034664}
-  - {fileID: 1142518707}
-  - {fileID: 772874421}
-  - {fileID: 15844197}
-  - {fileID: 1569394696}
-  - {fileID: 1740743776}
-  - {fileID: 65385827}
-  - {fileID: 706668323}
-  - {fileID: 171317448}
-  - {fileID: 701083966}
-  - {fileID: 1493050774}
-  - {fileID: 1442754267}
-  - {fileID: 1872332991}
-  - {fileID: 1007270398}
-  - {fileID: 1516961022}
-  - {fileID: 1236168305}
-  - {fileID: 95079717}
-  - {fileID: 157149974}
-  - {fileID: 279997670}
-  - {fileID: 1830042506}
-  - {fileID: 1125772372}
-  - {fileID: 1530419591}
-  - {fileID: 1174891469}
-  - {fileID: 562164801}
-  - {fileID: 952373155}
-  - {fileID: 770054274}
-  - {fileID: 2033437254}
-  - {fileID: 1255825610}
-  - {fileID: 1721656632}
-  - {fileID: 1910811838}
-  - {fileID: 194447790}
-  - {fileID: 1063412032}
-  - {fileID: 2117937680}
-  - {fileID: 604089509}
 --- !u!114 &1951562597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78696,7 +78643,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -79398,7 +79345,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -82732,7 +82679,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -83301,7 +83248,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
@@ -84794,7 +84741,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951562596}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BeachPropertiesNavigationManager, Assembly-CSharp
         m_MethodName: BackToBeaches
         m_Mode: 1
