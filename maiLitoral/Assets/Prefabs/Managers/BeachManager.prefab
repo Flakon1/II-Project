@@ -1143,12 +1143,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8b794fe025f3d040b075f11151bd5dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BeachManager
-  propertiesText: {fileID: 1754033976163930764}
+  calendarManager: {fileID: 0}
+  beachCalendar: {fileID: 0}
   beachesContent: {fileID: 6848007734322831529}
   propertiesContent: {fileID: 4133961061046375362}
   beachPrefab: {fileID: 5346638195889540712, guid: 8205436b6e1689940b49893162d38b77, type: 3}
   propertyPrefab: {fileID: 1438523200595088554, guid: d355a7a599b67eb41a19b74e2b988137, type: 3}
   reviewCalendarPrefab: {fileID: 6942025687210616913, guid: 0a9290268c9c3774da51f536e2e5d243, type: 3}
+  propertiesText: {fileID: 1754033976163930764}
   scrollViews:
   - {fileID: 6621510988720395339}
   - {fileID: 1885113101304879387}
@@ -2003,7 +2005,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 25, y: 0}
-  m_SizeDelta: {x: 1000, y: 50}
+  m_SizeDelta: {x: 590, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &5854564759536990893
 CanvasRenderer:
@@ -2033,7 +2035,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Facilit\u0103\u021Bile de ast\u0103zi"
+  m_text: "Facilit\u0103\u021Bile din"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 06d688c6684c2804599a521bb0fda393, type: 2}
   m_sharedMaterial: {fileID: -5583523190763574906, guid: 06d688c6684c2804599a521bb0fda393, type: 2}

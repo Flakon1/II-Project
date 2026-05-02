@@ -1,59 +1,59 @@
-using NUnit.Framework;
-using UnityEngine;
-using System.Reflection;
+// using NUnit.Framework;
+// using UnityEngine;
+// using System.Reflection;
 
-public class LanguageSelectionManagerTest
-{
-    private LanguageSelectionManager CreateManager(
-        GameObject romanian,
-        GameObject english
-    )
-    {
-        GameObject obj = new GameObject();
-        var manager = obj.AddComponent<LanguageSelectionManager>();
+// public class LanguageSelectionManagerTest
+// {
+//     private LanguageSelectionManager CreateManager(
+//         GameObject romanian,
+//         GameObject english
+//     )
+//     {
+//         GameObject obj = new GameObject();
+//         var manager = obj.AddComponent<LanguageSelectionManager>();
 
-        var type = typeof(LanguageSelectionManager);
+//         var type = typeof(LanguageSelectionManager);
 
-        type.GetField("romanianCheck", BindingFlags.NonPublic | BindingFlags.Instance)
-            .SetValue(manager, romanian);
+//         type.GetField("romanianCheck", BindingFlags.NonPublic | BindingFlags.Instance)
+//             .SetValue(manager, romanian);
 
-        type.GetField("englishCheck", BindingFlags.NonPublic | BindingFlags.Instance)
-            .SetValue(manager, english);
+//         type.GetField("englishCheck", BindingFlags.NonPublic | BindingFlags.Instance)
+//             .SetValue(manager, english);
 
-        return manager;
-    }
+//         return manager;
+//     }
 
-    [Test]
-    public void SelectRomanian_ShouldEnableRomanianAndDisableEnglish()
-    {
-        GameObject romanian = new GameObject();
-        GameObject english = new GameObject();
+//     [Test]
+//     public void SelectRomanian_ShouldEnableRomanianAndDisableEnglish()
+//     {
+//         GameObject romanian = new GameObject();
+//         GameObject english = new GameObject();
 
-        romanian.SetActive(false);
-        english.SetActive(true);
+//         romanian.SetActive(false);
+//         english.SetActive(true);
 
-        var manager = CreateManager(romanian, english);
+//         var manager = CreateManager(romanian, english);
 
-        manager.SelectRomanian();
+//         manager.SelectRomanian();
 
-        Assert.IsTrue(romanian.activeSelf);
-        Assert.IsFalse(english.activeSelf);
-    }
+//         Assert.IsTrue(romanian.activeSelf);
+//         Assert.IsFalse(english.activeSelf);
+//     }
 
-    [Test]
-    public void SelectEnglish_ShouldEnableEnglishAndDisableRomanian()
-    {
-        GameObject romanian = new GameObject();
-        GameObject english = new GameObject();
+//     [Test]
+//     public void SelectEnglish_ShouldEnableEnglishAndDisableRomanian()
+//     {
+//         GameObject romanian = new GameObject();
+//         GameObject english = new GameObject();
 
-        romanian.SetActive(true);
-        english.SetActive(false);
+//         romanian.SetActive(true);
+//         english.SetActive(false);
 
-        var manager = CreateManager(romanian, english);
+//         var manager = CreateManager(romanian, english);
 
-        manager.SelectEnglish();
+//         manager.SelectEnglish();
 
-        Assert.IsFalse(romanian.activeSelf);
-        Assert.IsTrue(english.activeSelf);
-    }
-}
+//         Assert.IsFalse(romanian.activeSelf);
+//         Assert.IsTrue(english.activeSelf);
+//     }
+// }

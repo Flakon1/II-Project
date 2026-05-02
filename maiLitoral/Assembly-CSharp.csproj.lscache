@@ -53,25 +53,14 @@ TemporaryDependencyNodeTargetIdentifier=netstandard2.1
 Assets/Scripts/Beach/
  Beach.cs
  BeachProperties.cs
-Assets/Scripts/
- BeachCalendar.cs
- BeachCalendarManager.cs
- ButtonsUI/ButtonsUI.cs
- CalendarDayUI.cs
- Managers/
-  BeachManager.cs
-  ButtonsManager.cs
-  CalendarManager.cs
-  SearchManager.cs
-  ZonesManager.cs
- SelectableCardUI.cs
- Settings/
-  AppearanceSelectionManager.cs
-  BeachRecommendationSelectionManager.cs
-  LanguageSelectionManager.cs
-  NotificationsSelectionManager.cs
-  SoundManager.cs
- SettingsNavigationManager.cs
+Assets/Scripts/Managers/
+ BeachManager.cs
+ ButtonsManager.cs
+ CalendarManager.cs
+ SearchManager.cs
+ SoundManager.cs
+ TransitionsManager.cs
+ ZonesManager.cs
 Assets/Tests/
  Beach/BeachPropertiesNavigationManagerTest.cs
  Search/

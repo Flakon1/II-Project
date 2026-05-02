@@ -28,18 +28,17 @@ public class ZonesManager : MonoBehaviour {
             return;
         }
         for(int i = 0; i < 10; i++) { // Example of implementation
-            GameObject newZone = Instantiate(zonePrefab, zonesContent.transform);
+            GameObject newZone = Instantiate(zonePrefab, zonesContent.transform); // Instantiating a new zone
             newZone.name = "Zone_" + i; // Take the name from the database
-            newZone.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = newZone.name;
-            int index = i;
-            newZone.GetComponent<Button>().onClick.AddListener(() => SelectZones(index)); // Adding the correspondent index
-            zones.Add(newZone);
+            newZone.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = newZone.name; // Setting the zone name in it's text field
+            int index = i; // Referencing index (so that it can be transmitted as parameter)
+            newZone.GetComponent<Button>().onClick.AddListener(() => SelectZone(index)); // Adding the correspondent listener to zone button
+            zones.Add(newZone); // Adding the zone in the list
         }
     }
-    private void SelectZones(int index) { // Open selected zones panel
-        currentPressedZone = index;
-        Debug.Log("Pressed Zone_" + index);
-        ButtonsManager.ReturnToPage("BeachPage");
+    private void SelectZone(int index) { // Open selected zone panel
+        currentPressedZone = index; // Saving the current pressed zone
+        ButtonsManager.ReturnToPage("BeachPage"); // Switching scene
     }
 
     /* Getters */

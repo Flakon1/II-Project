@@ -21,23 +21,23 @@ public class SearchManager : MonoBehaviour {
     /* Custom methods */
 
     private void SearchInit() { // Setup the search suggestion
-        zones = zonesManager.GetComponent<ZonesManager>().GetZones();
-        searchInputField.onValueChanged.AddListener(OnSearchValueChanged);
-        autoCompleteText.text = "";
-        ShowAllZones();
+        zones = zonesManager.GetComponent<ZonesManager>().GetZones(); // Getting the available zones
+        searchInputField.onValueChanged.AddListener(OnSearchValueChanged); // Adding the listener for input field
+        autoCompleteText.text = ""; // Making sure the autocomplete is empty first
+        ShowAllZones(); // Showing all zones in the start (because none was searched)
     } 
     private void OnSearchValueChanged(string currentText) { // Listener for updating the panels when typing
-        UpdateSuggestion(currentText);
-        FilterZones(currentText);
+        UpdateSuggestion(currentText); // Updating the panels when typing
+        FilterZones(currentText); // Showing only the matched searched zones
     }
 
     private void UpdateSuggestion(string currentText) { // Updating the panels when typing
         currentSuggestion = "";
-        if (string.IsNullOrWhiteSpace(currentText)) {
+        if (string.IsNullOrWhiteSpace(currentText)) { // What happends if there is no text
             autoCompleteText.text = "";
             return;
         }
-        string lowerText = currentText.ToLower();
+        string lowerText = currentText.ToLower(); // Not case sensitive search
         foreach(GameObject zone in zones) {
             string label = zone.name;
             if (label.ToLower().StartsWith(lowerText)) {
@@ -45,15 +45,15 @@ public class SearchManager : MonoBehaviour {
                 break;
             }
         }
-        if (string.IsNullOrEmpty(currentSuggestion)) {
+        if (string.IsNullOrEmpty(currentSuggestion)) { // What happends if there is no suggestion
             autoCompleteText.text = "";
             return;
         }
-        if (currentSuggestion.Length == currentText.Length) {
+        if (currentSuggestion.Length == currentText.Length) { // Do not autocomplete if the suggestion mathes the input field
             autoCompleteText.text = "";
             return;
         }
-        autoCompleteText.text = currentSuggestion;
+        autoCompleteText.text = currentSuggestion; // Filling the autocomplete text with the suggestion found
     }
     private void FilterZones(string currentText) { // Showing only the matched searched zones
         if (string.IsNullOrWhiteSpace(currentText)) {
@@ -61,7 +61,7 @@ public class SearchManager : MonoBehaviour {
             return;
         }
         string lowerText = currentText.ToLower();
-        foreach(GameObject zone in zones) {
+        foreach(GameObject zone in zones) { // Showing only the relevant zone
             bool matches = zone.name.ToLower().Contains(lowerText);
             zone.SetActive(matches);
         }
